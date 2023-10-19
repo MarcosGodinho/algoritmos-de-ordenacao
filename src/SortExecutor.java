@@ -42,7 +42,7 @@ class SortExecutor {
                         break;
                 }
 
-                //GeradorNumerosAleatorios.escreverNumerosNoArquivo(numbers, outputFile);
+                GeradorNumerosAleatorios.escreverNumerosNoArquivo(numbers, outputFile);
 
                 long endTime = System.nanoTime();
                 long executionTime = endTime - startTime;

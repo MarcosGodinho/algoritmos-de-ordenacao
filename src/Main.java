@@ -5,6 +5,7 @@ public class Main {
 
         int quantidadeNumeros = 100000;
         int quantidadeNumerosMenor = 10000;
+        int repeticoes = 1;
 
         //Tipos de listas de números: "Crescente", "Decrescente" e "Aleatorio"
         //Tipos de Sorts: "Merge", "Quick", "Bubble", "Insertion" e "Selection"
@@ -43,65 +44,65 @@ public class Main {
 // ********************************************************************************//
 
         SortExecutor merge1 = new SortExecutor();
-        merge1.execute("Merge", "Aleatorio", quantidadeNumeros, 10);
+        merge1.execute("Merge", "Aleatorio", quantidadeNumeros, repeticoes);
 
         SortExecutor merge2 = new SortExecutor();
-        merge2.execute("Merge", "Crescente", quantidadeNumeros, 10);
+        merge2.execute("Merge", "Crescente", quantidadeNumeros, repeticoes);
 
         SortExecutor merge3 = new SortExecutor();
-        merge3.execute("Merge", "Decrescente", quantidadeNumerosMenor, 10);
+        merge3.execute("Merge", "Decrescente", quantidadeNumerosMenor, repeticoes);
 
 // ********************************************************************************//
 // ****************************** Quick Sort **************************************//
 // ********************************************************************************//
 
         SortExecutor quick1 = new SortExecutor();
-        quick1.execute("Quick", "Aleatorio", quantidadeNumeros, 10);
+        quick1.execute("Quick", "Aleatorio", quantidadeNumeros, repeticoes);
 
         SortExecutor quick2 = new SortExecutor();
-        quick2.execute("Quick", "Crescente", quantidadeNumerosMenor, 10);
+        quick2.execute("Quick", "Crescente", quantidadeNumerosMenor, repeticoes);
 
         SortExecutor quick3 = new SortExecutor();
-        quick3.execute("Quick", "Decrescente", quantidadeNumerosMenor, 10);
+        quick3.execute("Quick", "Decrescente", quantidadeNumerosMenor, repeticoes);
 
 // ********************************************************************************//
 // ****************************** Bubble Sort *************************************//
 // ********************************************************************************//
 
         SortExecutor bubble1 = new SortExecutor();
-        bubble1.execute("Bubble", "Aleatorio", quantidadeNumeros, 10);
+        bubble1.execute("Bubble", "Aleatorio", quantidadeNumeros, repeticoes);
 
         SortExecutor bubble2 = new SortExecutor();
-        bubble2.execute("Bubble", "Crescente", quantidadeNumeros, 10);
+        bubble2.execute("Bubble", "Crescente", quantidadeNumeros, repeticoes);
 
         SortExecutor bubble3 = new SortExecutor();
-        bubble3.execute("Bubble", "Decrescente", quantidadeNumerosMenor, 10);
+        bubble3.execute("Bubble", "Decrescente", quantidadeNumerosMenor, repeticoes);
 
 // ********************************************************************************//
 // ****************************** Insertion Sort **********************************//
 // ********************************************************************************//
 
         SortExecutor insertion1 = new SortExecutor();
-        insertion1.execute("Insertion", "Aleatorio", quantidadeNumeros, 10);
+        insertion1.execute("Insertion", "Aleatorio", quantidadeNumeros, repeticoes);
 
         SortExecutor insertion2 = new SortExecutor();
-        insertion2.execute("Insertion", "Crescente", quantidadeNumeros, 10);
+        insertion2.execute("Insertion", "Crescente", quantidadeNumeros, repeticoes);
 
         SortExecutor insertion3 = new SortExecutor();
-        insertion3.execute("Insertion", "Decrescente", quantidadeNumerosMenor, 10);
+        insertion3.execute("Insertion", "Decrescente", quantidadeNumerosMenor, repeticoes);
 
 // ********************************************************************************//
 // ****************************** Selection Sort **********************************//
 // ********************************************************************************//
 
         SortExecutor selection1 = new SortExecutor();
-        selection1.execute("Selection", "Aleatorio", quantidadeNumeros, 10);
+        selection1.execute("Selection", "Aleatorio", quantidadeNumeros, repeticoes);
 
         SortExecutor selection2 = new SortExecutor();
-        selection2.execute("Selection", "Crescente", quantidadeNumeros, 10);
+        selection2.execute("Selection", "Crescente", quantidadeNumeros, repeticoes);
 
         SortExecutor selection3 = new SortExecutor();
-        selection3.execute("Selection", "Decrescente", quantidadeNumerosMenor, 10);
+        selection3.execute("Selection", "Decrescente", quantidadeNumerosMenor, repeticoes);
 
     }
 }
